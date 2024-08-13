@@ -1,4 +1,3 @@
-
 # Aplicativos desenvolvidos em Flutter
 
 ## Cursos base
@@ -9,17 +8,22 @@
 
 ## Apps
 
-|        | Cod3r | Startto.dev | Jamilton Damasceno |
-|:------:|:-----:|:-----------:|:------------------:|
-| App 01 |       |             |                    |
-| App 02 |       |             |                    |
-| App 03 |       |             |                    |
-
-
-
-
+|        |          Cod3r           |       Jamilton Damasceno        |              Startto.dev              |
+|:------:|:------------------------:|:-------------------------------:|:-------------------------------------:|
+| App 01 | [Perguntas][App01_Cod3r] | [Frases do dia][App01_Jamilton] | [Contador de pessoas][App01_Startto]1 |
+| App 02 |                          |                                 |                                       |
+| App 03 |                          |                                 |                                       |
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[Curso1]: https://www.udemy.com/course/curso-flutter/?couponCode=24T2MT81324
-[Curso2]: https://www.udemy.com/course/desenvolvimento-android-e-ios-com-flutter/?couponCode=24T2MT81324
-[Curso3]: https://www.udemy.com/course/curso-completo-flutter-app-android-ios/?couponCode=24T2MT81324
+
+[Curso1]: https://www.udemy.com/course/curso-flutter/
+
+[Curso2]: https://www.udemy.com/course/desenvolvimento-android-e-ios-com-flutter/
+
+[Curso3]: https://www.udemy.com/course/curso-completo-flutter-app-android-ios/
+
+[App01_Cod3r]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app01_cod3r
+
+[App01_Jamilton]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app01_jamilton
+
+[App01_Startto]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app01_startto
