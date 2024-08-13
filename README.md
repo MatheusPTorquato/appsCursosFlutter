@@ -2,9 +2,9 @@
 
 ## Cursos base
 
-- [Aprenda Flutter e Desenvolva Apps Para Android e IOS - Cod3r] [Curso1]
-- [Criação de Apps Android/iOS/Web com Flutter - Startto.dev] [Curso3]
-- [Desenvolvimento Android e IOS com Flutter - Jamilton Damasceno] [Curso2]
+- [Aprenda Flutter e Desenvolva Apps Para Android e IOS - Cod3r][Curso1]
+- [Criação de Apps Android/iOS/Web com Flutter - Startto.dev][Curso3]
+- [Desenvolvimento Android e IOS com Flutter - Jamilton Damasceno][Curso2]
 
 ## Apps
 
