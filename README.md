@@ -8,11 +8,11 @@
 
 ## Apps
 
-|        |          Cod3r           |       Jamilton Damasceno        |              Startto.dev              |
-|:------:|:------------------------:|:-------------------------------:|:-------------------------------------:|
-| App 01 | [Perguntas][App01_Cod3r] | [Frases do dia][App01_Jamilton] | [Contador de pessoas][App01_Startto]1 |
-| App 02 |                          |                                 |                                       |
-| App 03 |                          |                                 |                                       |
+|        |          Cod3r           |       Jamilton Damasceno        |             Startto.dev              |
+|:------:|:------------------------:|:-------------------------------:|:------------------------------------:|
+| App 01 | [Perguntas][App01_Cod3r] | [Frases do dia][App01_Jamilton] | [Contador de pessoas][App01_Startto] |
+| App 02 |                          |                                 |                                      |
+| App 03 |                          |                                 |                                      |
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
