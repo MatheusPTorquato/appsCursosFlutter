@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import './questions.dart';
-import './answer.dart';
+import './questionnaire.dart';
+import './results.dart';
 
 void main() => runApp(const QuestionApp());
 
@@ -13,52 +13,79 @@ class QuestionApp extends StatefulWidget {
 
 class _QuestionAppState extends State<QuestionApp> {
   var _selectedQuestion = 0;
+  var _pontuacaoTotal = 0;
 
-  void _answer() {
+  final _questions = const [
+    {
+      'pergunta': 'Qual é a capital da Austrália?', //Camberra
+      'respostas': [
+        {'texto': 'Sydney', 'pontuacao': 0},
+        {'texto': 'Camberra', 'pontuacao': 10},
+        {'texto': 'Melbourne', 'pontuacao': 0},
+        {'texto': 'Darwin', 'pontuacao': 0},
+      ]
+    },
+    {
+      'pergunta': 'De onde é a invenção do chuveiro elétrico?', //BR
+      'respostas': [
+        {'texto': "França", 'pontuacao': 0},
+        {'texto': "Estados Unidos", 'pontuacao': 0},
+        {'texto': "Inglaterra", 'pontuacao': 0},
+        {'texto': "Brasil", 'pontuacao': 10},
+      ]
+    },
+    {
+      'pergunta': 'Atualmente, quantos elementos químicos a tabela periódica possui?',
+      //118
+      'respostas': [
+        {'texto': "92", 'pontuacao': 0},
+        {'texto': "109", 'pontuacao': 0},
+        {'texto': "118", 'pontuacao': 10},
+        {'texto': "113", 'pontuacao': 0},
+      ]
+    },
+    {
+      'pergunta': 'Quanto tempo a luz do Sol demora para chegar à Terra?',
+      //8 min
+      'respostas': [
+        {'texto': "1 dia", 'pontuacao': 0},
+        {'texto': "12 segundos", 'pontuacao': 0},
+        {'texto': "8 minutos", 'pontuacao': 10},
+        {'texto': "3 horas", 'pontuacao': 0},
+      ]
+    },
+    {
+      'pergunta': 'Em qual local da Ásia o português é língua oficial?',
+      //Macau
+      'respostas': [
+        {'texto': "Macau", 'pontuacao': 10},
+        {'texto': "Índia", 'pontuacao': 0},
+        {'texto': "Moçambique", 'pontuacao': 0},
+        {'texto': "Angola", 'pontuacao': 0},
+      ]
+    }
+  ];
+
+  void _onAnswer(int pontuacao) {
     setState(() {
       _selectedQuestion++;
-      //if(correctChoice == )
+      _pontuacaoTotal += pontuacao;
     });
   }
 
+  void _onRestart(){
+    setState(() {
+      _selectedQuestion = 0;
+      _pontuacaoTotal = 0;
+    });
+  }
+
+  bool get hasSelectedQuestion => _selectedQuestion < _questions.length;
+
   @override
   Widget build(BuildContext context) {
-    final List<Map<String, Object>> questions = [
-      {
-        'pergunta': 'Qual é a capital da Austrália?', //Camberra
-        'respostas': ["Sydney", " Camberra", "Melbourne", "Darwin"]
-      },
-      {
-        'pergunta': 'De onde é a invenção do chuveiro elétrico?', //BR
-        'respostas': ["França ", "Estados Unidos", "Inglaterra ", "Brasil"]
-      },
-      {
-        'pergunta':
-            'Atualmente, quantos elementos químicos a tabela periódica possui?',
-        //118
-        'respostas': ["92", "109", "118", "113"]
-      },
-      {
-        'pergunta': 'Quanto tempo a luz do Sol demora para chegar à Terra?',
-        //8 min
-        'respostas': ["1 dia ", "12 segundos", "8 minutos", "3 horas"]
-      },
-      {
-        'pergunta': 'Em qual local da Ásia o português é língua oficial?',
-        //Macau
-        'respostas': ["Macau", "India", "Moçambique", "Angola"]
-      }
-    ];
 
-    List respostas = [];
-
-    for (String textAnswer
-        in questions[_selectedQuestion].cast()['respostas']) {
-      respostas.add(AnswerQuestion(
-        textAnswer: textAnswer,
-        onChoices: _answer,
-      ));
-    }
+    final int quantidadeAcertos = (_pontuacaoTotal / 10).toInt();
 
     return MaterialApp(
       home: Scaffold(
@@ -73,13 +100,14 @@ class _QuestionAppState extends State<QuestionApp> {
           ),
           backgroundColor: Colors.deepPurple,
         ),
-        body: Column(
-          children: <Widget>[
-            TextQuestions(
-              textQuestion: questions[_selectedQuestion]['pergunta'].toString(),
-            ),
-            ...respostas
-          ],
+        body: hasSelectedQuestion
+            ? Questionnaire(
+          questions: _questions,
+          selectedQuestion: _selectedQuestion,
+          answer: _onAnswer,
+        )
+            : ResultsText(
+          pontuacao: quantidadeAcertos, onRestart: _onRestart,
         ),
       ),
     );
