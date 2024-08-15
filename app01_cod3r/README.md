@@ -42,5 +42,14 @@ Feito em: 14 de agosto de 2024
 
 ## App Images
 
+|        | Image 01 | Image 02 | Image 03 |
+|:------:|:--------:|:--------:|:--------:|
+| App 01 | ![Img01] | ![Img02] | ![Img03] |
 
-<!-- Fotos -->
+<!-- Links -->
+
+[Img01]: https://github.com/MatheusPTorquato/appsCursosFlutter/blob/dev-mpt/screenshots/01app01_cod3r.png
+
+[Img02]: https://github.com/MatheusPTorquato/appsCursosFlutter/blob/dev-mpt/screenshots/02app01_cod3r.png
+
+[Img03]: https://github.com/MatheusPTorquato/appsCursosFlutter/blob/dev-mpt/screenshots/03app01_cod3r.png
