@@ -46,4 +46,5 @@ app.*.map.json
 
 /images/mesa.jpg
 /images/parque.jpg
+/lib/aulas.dart
 
