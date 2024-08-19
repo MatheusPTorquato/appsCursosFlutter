@@ -1,16 +1,26 @@
-# app02
+# App Frases do Dia
 
-A new Flutter project.
+Feito em: 19 de agosto de 2024
 
-## Getting Started
+### Curso e Módulo
 
-This project is a starting point for a Flutter application.
+- Curso: Desenvolvimento Android e IOS com Flutter
+- Módulo: Seção 10: Componentes de interface
 
-A few resources to get you started if this is your first Flutter project:
+### Aulas base para o App:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Aula 65: #App1 Frases do Dia - Criando interface
+- Aula 66: #App1 Frases do Dia - Gerando frases
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## App Images
+
+|        | Image 01 | Image 02 |
+|:------:|:--------:|:--------:|
+| App 01 | ![Img01] | ![Img02] | 
+
+<!-- Links -->
+
+[Img01]: https://github.com/MatheusPTorquato/appsCursosFlutter/blob/dev-mpt/screenshots/01app02_jamilton.png
+
+[Img02]: https://github.com/MatheusPTorquato/appsCursosFlutter/blob/dev-mpt/screenshots/02app02_jamilton.png
+
