@@ -8,11 +8,11 @@
 
 ## Apps
 
-|        |          Cod3r           |              Jamilton Damasceno               |             Startto.dev              |
-|:------:|:------------------------:|:---------------------------------------------:|:------------------------------------:|
-| App 01 | [Perguntas][App01_Cod3r] |        [Frases do dia][App01_Jamilton]        | [Contador de pessoas][App01_Startto] |
-| App 02 |                          | [Frases do dia - novo layout][App02_Jamilton] |  [Lista de Tarefas][App02_Startto]   |
-| App 03 |                          |           [JokenPo][App03_Jamilton]           |                                      |
+|        |              Cod3r               |              Jamilton Damasceno               |             Startto.dev              |
+|:------:|:--------------------------------:|:---------------------------------------------:|:------------------------------------:|
+| App 01 |     [Perguntas][App01_Cod3r]     |        [Frases do dia][App01_Jamilton]        | [Contador de pessoas][App01_Startto] |
+| App 02 | [Despesas Pessoais][App02_Cod3r] | [Frases do dia - novo layout][App02_Jamilton] |  [Lista de Tarefas][App02_Startto]   |
+| App 03 |                                  |           [JokenPo][App03_Jamilton]           |                                      |
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
@@ -31,5 +31,7 @@
 [App02_Jamilton]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app02_jamilton
 
 [App02_Startto]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app02_startto
+
+[App02_Cod3r]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app02_cod3r
 
 [App03_Jamilton]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app03_jamilton
