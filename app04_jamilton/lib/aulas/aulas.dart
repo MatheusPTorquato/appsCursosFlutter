@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import './campo_texto.dart';
+import './entrada_checkbox.dart';
+import './entrada_radio_btn.dart';
+import './entrada_switch.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,20 +14,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Aulas(),
-    );
-  }
-}
-
-class Aulas extends StatelessWidget {
-  const Aulas({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Column(
-      children: [
-        CampoTexto(),
-      ],
+      home: Scaffold(
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              CampoTexto(),
+              EntradaCheckbox(),
+              EntradaRadioBtn(),
+              EntradaSwitch(),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
