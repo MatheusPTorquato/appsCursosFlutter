@@ -1,4 +1,4 @@
-# App Caro ou Coroa
+# App Cara ou Coroa
 
 Feito em: 16 de setembro de 2024
 
