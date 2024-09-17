@@ -15,6 +15,8 @@
 | App 03 |                                  |              [JokenPo][App03_Jamilton]               |                                      |
 | App 04 |                                  |   [Calculo de Álcool ou Gasolina][App04_Jamilton]    |                                      |
 | App 05 |                                  | [Empresa Ficticia - ATM Consultoria][App05_Jamilton] |                                      |
+| App 06 |                                  |         [App Cara ou Coroa][App06_Jamilton]          |                                      |
+| App 07 |                                  |          [App Preço do BTC][App07_Jamilton]          |                                      |
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
@@ -41,3 +43,7 @@
 [App04_Jamilton]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app04_jamilton
 
 [App05_Jamilton]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app05_jamilton
+
+[App06_Jamilton]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app06_jamilton
+
+[App07_Jamilton]: https://github.com/MatheusPTorquato/appsCursosFlutter/tree/dev-mpt/app07_jamilton
