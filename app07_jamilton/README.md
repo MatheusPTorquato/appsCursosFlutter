@@ -21,7 +21,3 @@ Feito em: 17 de setembro de 2024
 <!-- Links -->
 
 [Img01]: https://github.com/MatheusPTorquato/appsCursosFlutter/blob/dev-mpt/screenshots/01app07_jamilton.png
-
-[Img02]: https://github.com/MatheusPTorquato/appsCursosFlutter/blob/dev-mpt/screenshots/02app06_jamilton.png
-
-[Img03]: https://github.com/MatheusPTorquato/appsCursosFlutter/blob/dev-mpt/screenshots/03app06_jamilton.png
